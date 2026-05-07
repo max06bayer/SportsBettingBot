@@ -1,0 +1,178 @@
+Starting Sports Betting Bot...
+Updating live data...
+league_tag_id=100381
+league_events=135
+title_games=90
+chosen_markets=51
+priced_markets=51
+final_rows=51
+SAMPLE_ROW: {'Name': 'Cleveland Guardians vs. Kansas City Royals', 'Date': '2026-05-07', 'Time': '20:10:00', 'Team A': 0.999, 'Team B': 0.001, 'Volume': '$772.8K'}
+SAMPLE_ROW: {'Name': 'Cincinnati Reds vs. Chicago Cubs', 'Date': '2026-05-07', 'Time': '20:20:00', 'Team A': 0.001, 'Team B': 0.999, 'Volume': '$654.9K'}
+SAMPLE_ROW: {'Name': 'Pittsburgh Pirates vs. Arizona Diamondbacks', 'Date': '2026-05-07', 'Time': '21:40:00', 'Team A': 0.955, 'Team B': 0.045, 'Volume': '$664.7K'}
+SAMPLE_ROW: {'Name': 'Baltimore Orioles vs. Miami Marlins', 'Date': '2026-05-08', 'Time': '00:40:00', 'Team A': 0.465, 'Team B': 0.535, 'Volume': '$341.5K'}
+SAMPLE_ROW: {'Name': 'Athletics vs. Philadelphia Phillies', 'Date': '2026-05-08', 'Time': '00:40:00', 'Team A': 0.455, 'Team B': 0.545, 'Volume': '$58.4K'}
+SAMPLE_ROW: {'Name': 'Tampa Bay Rays vs. Boston Red Sox', 'Date': '2026-05-08', 'Time': '01:10:00', 'Team A': 0.485, 'Team B': 0.515, 'Volume': '$145.9K'}
+SAMPLE_ROW: {'Name': 'St. Louis Cardinals vs. San Diego Padres', 'Date': '2026-05-08', 'Time': '04:10:00', 'Team A': 0.405, 'Team B': 0.595, 'Volume': '$110.6K'}
+SAMPLE_ROW: {'Name': 'Houston Astros vs. Cincinnati Reds', 'Date': '2026-05-09', 'Time': '00:10:00', 'Team A': 0.445, 'Team B': 0.555, 'Volume': '$57'}
+SAMPLE_ROW: {'Name': 'Colorado Rockies vs. Philadelphia Phillies', 'Date': '2026-05-09', 'Time': '00:40:00', 'Team A': 0.345, 'Team B': 0.655, 'Volume': '$226'}
+SAMPLE_ROW: {'Name': 'Los Angeles Angels vs. Toronto Blue Jays', 'Date': '2026-05-09', 'Time': '01:07:00', 'Team A': 0.395, 'Team B': 0.605, 'Volume': '$113'}
+00:00:36 | mlb | ./live_data/mlb.csv | 51 rows
+league_tag_id=745
+league_events=60
+title_games=22
+chosen_markets=14
+priced_markets=14
+final_rows=14
+SAMPLE_ROW: {'Name': 'Cavaliers vs. Pistons', 'Date': '2026-05-08', 'Time': '01:00:00', 'Team A': 0.405, 'Team B': 0.595, 'Volume': '$1.4M'}
+SAMPLE_ROW: {'Name': 'Lakers vs. Thunder', 'Date': '2026-05-08', 'Time': '03:30:00', 'Team A': 0.125, 'Team B': 0.875, 'Volume': '$1M'}
+SAMPLE_ROW: {'Name': 'Knicks vs. 76ers', 'Date': '2026-05-09', 'Time': '01:00:00', 'Team A': 0.495, 'Team B': 0.505, 'Volume': '$983.6K'}
+SAMPLE_ROW: {'Name': 'Spurs vs. Timberwolves', 'Date': '2026-05-09', 'Time': '03:30:00', 'Team A': 0.665, 'Team B': 0.335, 'Volume': '$667.6K'}
+SAMPLE_ROW: {'Name': 'Pistons vs. Cavaliers', 'Date': '2026-05-09', 'Time': '21:00:00', 'Team A': 0.43, 'Team B': 0.57, 'Volume': '$2.3K'}
+SAMPLE_ROW: {'Name': 'Thunder vs. Lakers', 'Date': '2026-05-10', 'Time': '02:30:00', 'Team A': 0.775, 'Team B': 0.225, 'Volume': '$10K'}
+SAMPLE_ROW: {'Name': 'Knicks vs. 76ers', 'Date': '2026-05-10', 'Time': '21:30:00', 'Team A': 0.535, 'Team B': 0.465, 'Volume': '$1.6K'}
+SAMPLE_ROW: {'Name': 'Spurs vs. Timberwolves', 'Date': '2026-05-11', 'Time': '01:30:00', 'Team A': 0.635, 'Team B': 0.365, 'Volume': '$2.6K'}
+SAMPLE_ROW: {'Name': 'Pistons vs. Cavaliers', 'Date': '2026-05-12', 'Time': '02:00:00', 'Team A': 0.43, 'Team B': 0.57, 'Volume': '$229'}
+SAMPLE_ROW: {'Name': 'Thunder vs. Lakers', 'Date': '2026-05-12', 'Time': '04:30:00', 'Team A': 0.735, 'Team B': 0.265, 'Volume': '$2.7K'}
+00:00:38 | nba | ./live_data/nba.csv | 14 rows
+league_tag_id=82
+league_events=107
+title_games=79
+chosen_matches=17
+priced_matches=17
+final_rows=17
+SAMPLE_ROW: {'Name': 'Liverpool FC vs. Chelsea FC', 'Date': '2026-05-09', 'Time': '13:30:00', 'Team A': 0.525, 'Draw': 0.235, 'Team B': 0.245, 'Volume': '$59.7K'}
+SAMPLE_ROW: {'Name': 'Fulham FC vs. AFC Bournemouth', 'Date': '2026-05-09', 'Time': '16:00:00', 'Team A': 0.345, 'Draw': 0.255, 'Team B': 0.405, 'Volume': '$67.2K'}
+SAMPLE_ROW: {'Name': 'Brighton & Hove Albion FC vs. Wolverhampton Wanderers FC', 'Date': '2026-05-09', 'Time': '16:00:00', 'Team A': 0.765, 'Draw': 0.145, 'Team B': 0.085, 'Volume': '$45.9K'}
+SAMPLE_ROW: {'Name': 'Sunderland AFC vs. Manchester United FC', 'Date': '2026-05-09', 'Time': '16:00:00', 'Team A': 0.225, 'Draw': 0.255, 'Team B': 0.515, 'Volume': '$39.6K'}
+SAMPLE_ROW: {'Name': 'Manchester City FC vs. Brentford FC', 'Date': '2026-05-09', 'Time': '18:30:00', 'Team A': 0.725, 'Draw': 0.165, 'Team B': 0.115, 'Volume': '$47.1K'}
+SAMPLE_ROW: {'Name': 'Nottingham Forest FC vs. Newcastle United FC', 'Date': '2026-05-10', 'Time': '15:00:00', 'Team A': 0.365, 'Draw': 0.265, 'Team B': 0.365, 'Volume': '$32.1K'}
+SAMPLE_ROW: {'Name': 'Burnley FC vs. Aston Villa FC', 'Date': '2026-05-10', 'Time': '15:00:00', 'Team A': 0.175, 'Draw': 0.225, 'Team B': 0.605, 'Volume': '$6.7K'}
+SAMPLE_ROW: {'Name': 'Crystal Palace FC vs. Everton FC', 'Date': '2026-05-10', 'Time': '15:00:00', 'Team A': 0.345, 'Draw': 0.285, 'Team B': 0.375, 'Volume': '$2.4K'}
+SAMPLE_ROW: {'Name': 'West Ham United FC vs. Arsenal FC', 'Date': '2026-05-10', 'Time': '17:30:00', 'Team A': 0.165, 'Draw': 0.225, 'Team B': 0.605, 'Volume': '$61.5K'}
+SAMPLE_ROW: {'Name': 'Tottenham Hotspur FC vs. Leeds United FC', 'Date': '2026-05-11', 'Time': '21:00:00', 'Team A': 0.525, 'Draw': 0.245, 'Team B': 0.24, 'Volume': '$40.9K'}
+00:00:41 | epl | ./live_data/epl.csv | 17 rows
+league_tag_id=780
+league_events=145
+title_games=103
+chosen_matches=30
+priced_matches=30
+final_rows=30
+SAMPLE_ROW: {'Name': 'Levante UD vs. CA Osasuna', 'Date': '2026-05-08', 'Time': '21:00:00', 'Team A': 0.375, 'Draw': 0.285, 'Team B': 0.335, 'Volume': '$12.2K'}
+SAMPLE_ROW: {'Name': 'Elche CF vs. Deportivo Alavés', 'Date': '2026-05-09', 'Time': '14:00:00', 'Team A': 0.425, 'Draw': 0.285, 'Team B': 0.285, 'Volume': '$4.4K'}
+SAMPLE_ROW: {'Name': 'Sevilla FC vs. RCD Espanyol de Barcelona', 'Date': '2026-05-09', 'Time': '16:15:00', 'Team A': 0.475, 'Draw': 0.285, 'Team B': 0.245, 'Volume': '$13.7K'}
+SAMPLE_ROW: {'Name': 'Club Atlético de Madrid vs. RC Celta de Vigo', 'Date': '2026-05-09', 'Time': '18:30:00', 'Team A': 0.455, 'Draw': 0.275, 'Team B': 0.275, 'Volume': '$189.3K'}
+SAMPLE_ROW: {'Name': 'Real Sociedad de Fútbol vs. Real Betis Balompié', 'Date': '2026-05-09', 'Time': '21:00:00', 'Team A': 0.375, 'Draw': 0.265, 'Team B': 0.365, 'Volume': '$5.3K'}
+SAMPLE_ROW: {'Name': 'RCD Mallorca vs. Villarreal CF', 'Date': '2026-05-10', 'Time': '14:00:00', 'Team A': 0.405, 'Draw': 0.275, 'Team B': 0.325, 'Volume': '$8.9K'}
+SAMPLE_ROW: {'Name': 'Athletic Club vs. Valencia CF', 'Date': '2026-05-10', 'Time': '16:15:00', 'Team A': 0.565, 'Draw': 0.245, 'Team B': 0.185, 'Volume': '$5.3K'}
+SAMPLE_ROW: {'Name': 'Real Oviedo vs. Getafe CF', 'Date': '2026-05-10', 'Time': '18:30:00', 'Team A': 0.315, 'Draw': 0.295, 'Team B': 0.385, 'Volume': '$118.6K'}
+SAMPLE_ROW: {'Name': 'FC Barcelona vs. Real Madrid CF', 'Date': '2026-05-10', 'Time': '21:00:00', 'Team A': 0.585, 'Draw': 0.19, 'Team B': 0.225, 'Volume': '$531.2K'}
+SAMPLE_ROW: {'Name': 'Rayo Vallecano de Madrid vs. Girona FC', 'Date': '2026-05-11', 'Time': '21:00:00', 'Team A': 0.405, 'Draw': 0.285, 'Team B': 0.315, 'Volume': '$2.2K'}
+00:00:45 | laliga | ./live_data/laliga.csv | 30 rows
+league_tag_id=1494
+league_events=77
+title_games=50
+chosen_matches=18
+priced_matches=18
+final_rows=18
+SAMPLE_ROW: {'Name': 'BV Borussia 09 Dortmund vs. Eintracht Frankfurt', 'Date': '2026-05-08', 'Time': '20:30:00', 'Team A': 0.635, 'Draw': 0.195, 'Team B': 0.165, 'Volume': '$21.2K'}
+SAMPLE_ROW: {'Name': 'RB Leipzig vs. FC St. Pauli 1910', 'Date': '2026-05-09', 'Time': '15:30:00', 'Team A': 0.745, 'Draw': 0.165, 'Team B': 0.095, 'Volume': '$9.3K'}
+SAMPLE_ROW: {'Name': 'TSG 1899 Hoffenheim vs. SV Werder Bremen', 'Date': '2026-05-09', 'Time': '15:30:00', 'Team A': 0.665, 'Draw': 0.185, 'Team B': 0.155, 'Volume': '$2.7K'}
+SAMPLE_ROW: {'Name': 'VfB Stuttgart vs. Bayer 04 Leverkusen', 'Date': '2026-05-09', 'Time': '15:30:00', 'Team A': 0.435, 'Draw': 0.235, 'Team B': 0.325, 'Volume': '$2.4K'}
+SAMPLE_ROW: {'Name': 'FC Augsburg vs. Borussia Mönchengladbach', 'Date': '2026-05-09', 'Time': '15:30:00', 'Team A': 0.455, 'Draw': 0.255, 'Team B': 0.285, 'Volume': '$1.3K'}
+SAMPLE_ROW: {'Name': 'VfL Wolfsburg vs. FC Bayern München', 'Date': '2026-05-09', 'Time': '18:30:00', 'Team A': 0.205, 'Draw': 0.205, 'Team B': 0.585, 'Volume': '$33.6K'}
+SAMPLE_ROW: {'Name': 'Hamburger SV vs. SC Freiburg', 'Date': '2026-05-10', 'Time': '15:30:00', 'Team A': 0.345, 'Draw': 0.265, 'Team B': 0.395, 'Volume': '$1.5K'}
+SAMPLE_ROW: {'Name': '1. FC Köln vs. 1. FC Heidenheim 1846', 'Date': '2026-05-10', 'Time': '17:30:00', 'Team A': 0.505, 'Draw': 0.23, 'Team B': 0.265, 'Volume': '$820'}
+SAMPLE_ROW: {'Name': '1. FSV Mainz 05 vs. 1. FC Union Berlin', 'Date': '2026-05-10', 'Time': '19:30:00', 'Team A': 0.555, 'Draw': 0.235, 'Team B': 0.215, 'Volume': '$34.3K'}
+SAMPLE_ROW: {'Name': 'FC Bayern München vs. 1. FC Köln', 'Date': '2026-05-16', 'Time': '15:30:00', 'Team A': 0.68, 'Draw': 0.225, 'Team B': 0.155, 'Volume': '$444'}
+00:00:48 | bundesliga | ./live_data/bundesliga.csv | 18 rows
+league_tag_id=102070
+league_events=89
+title_games=58
+chosen_matches=20
+priced_matches=20
+final_rows=20
+SAMPLE_ROW: {'Name': 'Racing Club de Lens vs. FC Nantes', 'Date': '2026-05-08', 'Time': '20:45:00', 'Team A': 0.675, 'Draw': 0.195, 'Team B': 0.135, 'Volume': '$137.5K'}
+SAMPLE_ROW: {'Name': 'Paris Saint-Germain FC vs. Stade Brestois 29', 'Date': '2026-05-10', 'Time': '21:00:00', 'Team A': 0.825, 'Draw': 0.105, 'Team B': 0.055, 'Volume': '$8.9K'}
+SAMPLE_ROW: {'Name': 'Toulouse FC vs. Olympique Lyonnais', 'Date': '2026-05-10', 'Time': '21:00:00', 'Team A': 0.205, 'Draw': 0.245, 'Team B': 0.555, 'Volume': '$6.5K'}
+SAMPLE_ROW: {'Name': 'AS Monaco FC vs. Lille OSC', 'Date': '2026-05-10', 'Time': '21:00:00', 'Team A': 0.405, 'Draw': 0.25, 'Team B': 0.345, 'Volume': '$5.2K'}
+SAMPLE_ROW: {'Name': 'Le Havre AC vs. Olympique de Marseille', 'Date': '2026-05-10', 'Time': '21:00:00', 'Team A': 0.275, 'Draw': 0.255, 'Team B': 0.475, 'Volume': '$3.3K'}
+SAMPLE_ROW: {'Name': 'AJ Auxerre vs. OGC Nice', 'Date': '2026-05-10', 'Time': '21:00:00', 'Team A': 0.385, 'Draw': 0.285, 'Team B': 0.325, 'Volume': '$1.4K'}
+SAMPLE_ROW: {'Name': 'FC Metz vs. FC Lorient', 'Date': '2026-05-10', 'Time': '21:00:00', 'Team A': 0.295, 'Draw': 0.265, 'Team B': 0.45, 'Volume': '$1.4K'}
+SAMPLE_ROW: {'Name': 'Angers SCO vs. RC Strasbourg Alsace', 'Date': '2026-05-10', 'Time': '21:00:00', 'Team A': 0.315, 'Draw': 0.285, 'Team B': 0.395, 'Volume': '$1.3K'}
+SAMPLE_ROW: {'Name': 'Stade Rennais FC 1901 vs. Paris FC', 'Date': '2026-05-10', 'Time': '21:00:00', 'Team A': 0.655, 'Draw': 0.185, 'Team B': 0.155, 'Volume': '$557'}
+SAMPLE_ROW: {'Name': 'Stade Brestois 29 vs. RC Strasbourg Alsace', 'Date': '2026-05-13', 'Time': '19:00:00', 'Team A': 0.38, 'Draw': 0.235, 'Team B': 0.38, 'Volume': '$234'}
+00:00:51 | ligue1 | ./live_data/ligue1.csv | 20 rows
+league_tag_id=101962
+league_events=56
+title_games=46
+chosen_matches=10
+priced_matches=10
+final_rows=10
+SAMPLE_ROW: {'Name': 'Torino FC vs. US Sassuolo Calcio', 'Date': '2026-05-08', 'Time': '20:45:00', 'Team A': 0.385, 'Draw': 0.295, 'Team B': 0.315, 'Volume': '$18.9K'}
+SAMPLE_ROW: {'Name': 'Cagliari Calcio vs. Udinese Calcio', 'Date': '2026-05-09', 'Time': '15:00:00', 'Team A': 0.375, 'Draw': 0.305, 'Team B': 0.315, 'Volume': '$964'}
+SAMPLE_ROW: {'Name': 'SS Lazio vs. FC Internazionale Milano', 'Date': '2026-05-09', 'Time': '18:00:00', 'Team A': 0.205, 'Draw': 0.255, 'Team B': 0.535, 'Volume': '$5.6K'}
+SAMPLE_ROW: {'Name': 'US Lecce vs. Juventus FC', 'Date': '2026-05-09', 'Time': '20:45:00', 'Team A': 0.125, 'Draw': 0.215, 'Team B': 0.665, 'Volume': '$5K'}
+SAMPLE_ROW: {'Name': 'Hellas Verona FC vs. Como 1907', 'Date': '2026-05-10', 'Time': '12:30:00', 'Team A': 0.115, 'Draw': 0.185, 'Team B': 0.695, 'Volume': '$2.5K'}
+SAMPLE_ROW: {'Name': 'US Cremonese vs. Pisa SC', 'Date': '2026-05-10', 'Time': '15:00:00', 'Team A': 0.575, 'Draw': 0.245, 'Team B': 0.185, 'Volume': '$3.5K'}
+SAMPLE_ROW: {'Name': 'ACF Fiorentina vs. Genoa CFC', 'Date': '2026-05-10', 'Time': '15:00:00', 'Team A': 0.455, 'Draw': 0.285, 'Team B': 0.255, 'Volume': '$452'}
+SAMPLE_ROW: {'Name': 'Parma Calcio 1913 vs. AS Roma', 'Date': '2026-05-10', 'Time': '18:00:00', 'Team A': 0.145, 'Draw': 0.225, 'Team B': 0.635, 'Volume': '$5.3K'}
+SAMPLE_ROW: {'Name': 'AC Milan vs. Atalanta BC', 'Date': '2026-05-10', 'Time': '20:45:00', 'Team A': 0.455, 'Draw': 0.28, 'Team B': 0.265, 'Volume': '$9.7K'}
+SAMPLE_ROW: {'Name': 'SSC Napoli vs. Bologna FC 1909', 'Date': '2026-05-11', 'Time': '20:45:00', 'Team A': 0.625, 'Draw': 0.235, 'Team B': 0.145, 'Volume': '$748'}
+00:00:53 | serie_a | ./live_data/serie_a.csv | 10 rows
+league_tag_id=1234
+league_events=11
+title_games=0
+chosen_matches=0
+priced_matches=0
+final_rows=0
+00:00:53 | champions_league | ./live_data/champions_league.csv | 0 rows
+league_tag_id=100100
+league_events=161
+title_games=92
+chosen_matches=43
+priced_matches=43
+final_rows=43
+SAMPLE_ROW: {'Name': 'Toronto FC vs. Inter Miami CF', 'Date': '2026-05-09', 'Time': '19:00:00', 'Team A': 0.28, 'Draw': 0.225, 'Team B': 0.495, 'Volume': '$5.7K'}
+SAMPLE_ROW: {'Name': 'Chicago Fire FC vs. New York Red Bulls', 'Date': '2026-05-09', 'Time': '20:30:00', 'Team A': 0.625, 'Draw': 0.2, 'Team B': 0.18, 'Volume': '$2.2K'}
+SAMPLE_ROW: {'Name': 'CF Montréal vs. Orlando City SC', 'Date': '2026-05-09', 'Time': '22:30:00', 'Team A': 0.5, 'Draw': 0.235, 'Team B': 0.265, 'Volume': '$814'}
+SAMPLE_ROW: {'Name': 'New England Revolution vs. Philadelphia Union', 'Date': '2026-05-10', 'Time': '01:30:00', 'Team A': 0.365, 'Draw': 0.28, 'Team B': 0.355, 'Volume': '$2.9K'}
+SAMPLE_ROW: {'Name': 'Charlotte FC vs. FC Cincinnati', 'Date': '2026-05-10', 'Time': '01:30:00', 'Team A': 0.455, 'Draw': 0.24, 'Team B': 0.305, 'Volume': '$347'}
+SAMPLE_ROW: {'Name': 'Atlanta United FC vs. Los Angeles Galaxy', 'Date': '2026-05-10', 'Time': '01:30:00', 'Team A': 0.39, 'Draw': 0.27, 'Team B': 0.34, 'Volume': '$159'}
+SAMPLE_ROW: {'Name': 'FC Dallas vs. Real Salt Lake', 'Date': '2026-05-10', 'Time': '02:30:00', 'Team A': 0.435, 'Draw': 0.25, 'Team B': 0.32, 'Volume': '$78'}
+SAMPLE_ROW: {'Name': 'Nashville SC vs. D.C. United SC', 'Date': '2026-05-10', 'Time': '03:00:00', 'Team A': 0.635, 'Draw': 0.23, 'Team B': 0.14, 'Volume': '$208'}
+SAMPLE_ROW: {'Name': 'Colorado Rapids SC vs. St. Louis City SC', 'Date': '2026-05-10', 'Time': '03:30:00', 'Team A': 0.48, 'Draw': 0.245, 'Team B': 0.275, 'Volume': '$1.6K'}
+SAMPLE_ROW: {'Name': 'San Jose Earthquakes vs. Vancouver Whitecaps FC', 'Date': '2026-05-10', 'Time': '04:30:00', 'Team A': 0.325, 'Draw': 0.27, 'Team B': 0.415, 'Volume': '$1K'}
+00:01:00 | mls | ./live_data/mls.csv | 43 rows
+league_tag_id=450
+league_events=45
+title_games=0
+chosen_markets=0
+priced_markets=0
+final_rows=0
+00:01:00 | nfl | ./live_data/nfl.csv | 0 rows
+league_tag_id=899
+league_events=28
+title_games=15
+chosen_markets=7
+priced_markets=7
+final_rows=7
+SAMPLE_ROW: {'Name': 'Hurricanes vs. Flyers', 'Date': '2026-05-08', 'Time': '02:00:00', 'Team A': 0.615, 'Team B': 0.385, 'Volume': '$227.2K'}
+SAMPLE_ROW: {'Name': 'Canadiens vs. Sabres', 'Date': '2026-05-09', 'Time': '01:00:00', 'Team A': 0.455, 'Team B': 0.545, 'Volume': '$13.1K'}
+SAMPLE_ROW: {'Name': 'Golden Knights vs. Ducks', 'Date': '2026-05-09', 'Time': '03:30:00', 'Team A': 0.505, 'Team B': 0.495, 'Volume': '$29.5K'}
+SAMPLE_ROW: {'Name': 'Hurricanes vs. Flyers', 'Date': '2026-05-10', 'Time': '00:00:00', 'Team A': 0.63, 'Team B': 0.37, 'Volume': '$5.9K'}
+SAMPLE_ROW: {'Name': 'Avalanche vs. Wild', 'Date': '2026-05-10', 'Time': '03:00:00', 'Team A': 0.545, 'Team B': 0.455, 'Volume': '$20.2K'}
+SAMPLE_ROW: {'Name': 'Sabres vs. Canadiens', 'Date': '2026-05-11', 'Time': '01:00:00', 'Team A': 0.495, 'Team B': 0.505, 'Volume': '$4.2K'}
+SAMPLE_ROW: {'Name': 'Golden Knights vs. Ducks', 'Date': '2026-05-11', 'Time': '03:30:00', 'Team A': 0.505, 'Team B': 0.495, 'Volume': '$742'}
+00:01:01 | nhl | ./live_data/nhl.csv | 7 rows
+
+========================================================================================================================
+BOT RUN COMPLETE | 2026-05-08 00:01:01
+========================================================================================================================
+Cash: $5904.90
+Total Cash Now: $10000.00
+Up/Down: $0.00
+Portfolio file: ./portfolio.csv
+Action log file: ./bot_action_log.csv
+
+TRADES THIS RUN
+------------------------------------------------------------------------------------------------------------------------

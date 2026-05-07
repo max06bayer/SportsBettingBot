@@ -4,6 +4,7 @@ import json
 import hashlib
 from dataclasses import dataclass
 from datetime import datetime
+import time
 
 import live_data_runner
 
@@ -944,4 +945,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    print("Starting Sports Betting Bot...")
+    while True:
+        main()
+        time.sleep(60*5)
